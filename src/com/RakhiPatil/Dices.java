@@ -10,7 +10,6 @@ public class Dices {
 		int p = (random.nextInt()%6 +1);
 		int q = (random.nextInt()%6 +1);
 		System.out.println("Values on Dice are : (" +p +" , "+q +")");
-		
 		int sum = p +q;
 		System.out.println("Sum :"+sum);
 	}
